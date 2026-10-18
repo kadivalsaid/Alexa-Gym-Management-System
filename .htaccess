@@ -1,0 +1,9 @@
+# Allow access from all devices (Mobile phones on LAN / Hotspot)
+Require all granted
+
+# Enable CORS for API and fonts
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+    Header set Access-Control-Allow-Methods "GET, POST, OPTIONS, PUT, DELETE"
+    Header set Access-Control-Allow-Headers "Content-Type, Authorization, X-Requested-With"
+</IfModule>

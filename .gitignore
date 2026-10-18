@@ -1,0 +1,23 @@
+# Backups & Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Keystores & Secret Keys
+*.keystore
+*.jks
+
+# Large Installers in downloads folder (optional: keep lightweight APK if needed, ignore large setups)
+downloads/*.exe
+downloads/*.zip
+
+# IDE & OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+error_log
